@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { decodeToken } from "../../utils/token";
 import api from "./../../configs/axios-base-url";
-// import { useNavigate } from "react-router-dom";
 
 export const useHook = () => {
   const [email, setEmail] = useState("");

@@ -307,16 +307,6 @@ const JobOpportunities = () => {
                       className="w-full border rounded p-2"
                     />
                   </div>
-                  {/* <div className="mb-4">
-                    <label className="block mb-1">Requirements</label>
-                    <textarea
-                      type="message"
-                      name="requirement" // Change "requirement" to "requirements"
-                      value={joboppdata.requirement}
-                      onChange={handleChange}
-                      className="w-full border rounded p-2"
-                    />
-                  </div> */}
 
                   <div className="mb-4">
                     <label className="block mb-1">Validation</label>

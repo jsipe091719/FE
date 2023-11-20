@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-// import tbg1 from "../assets/tbg.png";
+
 import bscslogs from "../assets/bscslogs.png";
 import wmsulogs from "../assets/wmsulogs.png";
 import { BiSolidChevronLeft, BiSolidChevronRight } from "react-icons/bi";
@@ -27,7 +27,7 @@ import axios from "axios";
 const Landingpage = () => {
   const [selectedFilter, setSelectedFilter] = useState("all");
   const [data, setData] = useState([]); // Define the data state
-  const [loading, setLoading] = useState(true);
+  const [setLoading] = useState(true);
   const [newsResponse, setNewsResponse] = useState([]); // Store news data
   const [eventsResponse, setEventsResponse] = useState([]); // Store events data
   const [jobOppResponse, setJobOppResponse] = useState([]); // Store job opportunities data

@@ -6,7 +6,7 @@ import moment from "moment";
 
 const Logs = () => {
   const [logs, setLogs] = useState();
-  const [selectedAlumni, setSelectedAlumni] = useState(null);
+  const [setSelectedAlumni] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
   const viewAlumni = () => {

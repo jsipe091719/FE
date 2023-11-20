@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import React from "react";
 import AAlumniboardView from "../../components/AlumniSide/AAlumniboardView";
 import ASidebar from "../../components/AlumniSide/ASidebar";
 

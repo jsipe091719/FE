@@ -6,7 +6,7 @@ import AAlumniboardView from "../../components/AlumniSide/AAlumniboardView";
 
 const AEvents = () => {
   const [eventdata, setEventData] = useState([]);
-  const [newEventData, setNewEventData] = useState({
+  const [setNewEventData] = useState({
     title: "",
     stime: "",
     sdate: "",

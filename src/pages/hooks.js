@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import { decodeToken } from "../utils/token";
 import api from "../configs/axios-base-url";
 
 export const useHooks = () => {
